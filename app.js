@@ -369,6 +369,6 @@ app.use('/api/:website/:query/:page?', (req, res, next) => {
 app.use('/', (req, res) => {
     res.send(JSON.stringify({help: 'https://github.com/mafuth/MVFLIX-Torrent-Search'}));
 });
-const PORT = process.env.PORT || 8080;
+const PORT = 9000;
 console.log('Listening on PORT : ', PORT);
 app.listen(PORT);
