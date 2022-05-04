@@ -22,8 +22,6 @@ $ /api/{website name}/{query}/{page(optional)}
 
 ```
 
----                     |
-
 ### Example
 
 ```
